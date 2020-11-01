@@ -1,0 +1,67 @@
+*{
+  margin:0px;
+  padding:0px;
+  /*去掉列表前缀*/
+  list-style: none;
+}
+#all{
+  /*宽度*/
+  width: 600px;
+  height:400px;
+  /*外边距：上下 左右*/
+  margin: 100px auto;
+  /*叠加*/
+  position: relative;
+}
+#img>li{
+  position: relative;
+  top:0px;
+  left:0px;
+  /*图片隐藏*/
+  display: none;
+}
+
+#number{
+  /*位置*/
+  position: absolute;
+  bottom:10px;
+  left: 45%;;
+}
+
+#number>li{
+  display: inline-block;
+  width: 20px;
+  height:20px;
+  /*画圆*/
+  border-radius: 10px;
+
+  background-color: rgba(0,0,0,6);
+  color: white;
+  text-align: center;
+  /*垂直居中*/
+  line-height:20px;
+
+  vertical-align: middle;
+
+
+
+
+}
+#left,#right{
+  position: absolute;
+  top:40%;
+
+  width:30px;
+  height:30px;
+
+ background-color: rgba(0,0,0,6);
+  color: white;
+  text-align: center;
+  /*垂直居中*/
+  line-height:20px;
+
+  vertical-align: middle;
+}
+#right{
+  right:0px;
+}
