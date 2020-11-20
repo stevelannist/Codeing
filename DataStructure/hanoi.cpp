@@ -1,6 +1,6 @@
 #include<stdio.h>
 void move(char a,char b){
-	printf("移动盘子从%c到%c\n",a,b);
+	printf("Move disk from %c to 陆%c\n",a,b);
 }
 void Hanoi(int n,char a,char b,char c){
 	if(n==1){
